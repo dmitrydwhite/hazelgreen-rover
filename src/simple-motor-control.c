@@ -16,8 +16,8 @@ void setup() {
  * runs the other direction for 1 second, pauses for 1 second.
  */
 void loop() {
-	digitalWrite(motorA, HIGH);
-	digitalWrite(motorB, LOW);
+	digitalWrite(motorA, LOW);
+	digitalWrite(motorB, HIGH);
 	analogWrite(enableA, 200);
 	delay(1000);
 
@@ -26,8 +26,8 @@ void loop() {
 	analogWrite(enableA, 0);
 	delay(1000);
 
-	digitalWrite(motorA, LOW);
-	digitalWrite(motorB, HIGH);
+	digitalWrite(motorA, HIGH);
+	digitalWrite(motorB, LOW);
 	analogWrite(enableA, 200);
 	delay(1000);
 
