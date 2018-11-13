@@ -22,7 +22,7 @@ void loop() {
 	delay(1000);
 
 	digitalWrite(motorA, LOW);
-	digitalWrite(motorB, LOW);
+	digitalWrite(motorB, LOW); //Here is my change
 	analogWrite(enableA, 0);
 	delay(1000);
 
