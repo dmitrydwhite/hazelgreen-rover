@@ -14,6 +14,7 @@ void setup() {
 /**
  * Runs motor one direction for 1 second at 200, pauses for 1 second,
  * runs the other direction for 1 second, pauses for 1 second.
+ * This function is super awesome.
  */
 void loop() {
 	digitalWrite(motorA, LOW);
